@@ -1,0 +1,54 @@
+doctype html(lang='en')
+head
+  meta(charset='utf-8')
+  title HosPlus
+  meta(name='description', content='')
+  meta(name='author', content='')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='manifest', href='manifest.json')
+  link(rel='stylesheet', href='css/style.css')
+  link(rel='icon', type='image/png', href='images/favicon.png')
+  script(src='js/jquery-3.0.0.min.js')
+  script(src='js/script.js')
+body
+
+  //- The sidenav which is translateX'd out of the screen
+  .sidenav
+    ul
+      li.logo
+      li Consult a Doctor
+      li Aid in Emergencies
+      li About Us
+    
+
+  //- The 3 bar icon you see on the top right.
+  .hamburger-icon
+    .bar
+    .bar
+    .bar
+    
+  //- Backgorund with the Image
+  .background
+    .circle
+      h1 HosPlus
+      span Contact Doctors nearby
+
+  //- made foreground, that will be over everything else and will give the mouse position value to animate the heading
+  .foreground
+  .main-wrap
+    .instruction-cpr
+      h1.instruction-heading How to do CPR
+      .container
+        h2 CALL 108 for Ambulance
+        .image-wrap
+          img(src='/images/quick1.gif')
+        p  If the person is not responsive and not breathing or not breathing normally. Call 108 and return to the victim. If possible bring the phone next to the person and place on speaker mode. In most locations the emergency dispatcher can assist you with CPR instructions.
+        h2 PUMP
+        .image-wrap
+          img(src='/images/handposition.gif')
+          img(src='/images/pumpani.gif')
+        p If the victim is still not breathing normally, coughing or moving, begin chest compressions.  Push down in the center of the chest 2-2.4 inches 30 times. Pump hard and fast at the rate of 100-120/minute, faster than once per second.
+        h2 BLOW
+        .image-wrap
+          img(src='/images/blowani.gif')
+        p Tilt the head back and lift the chin. Pinch nose and cover the mouth with yours and blow until you see the chest rise. Give 2 breaths.  Each breath should take 1 second.
